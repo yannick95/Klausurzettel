@@ -197,14 +197,36 @@ Volumenterm: $\sim\ V \sim R^3 \sim A$, kurzreichweitige Kernkraft, WW in etwa n
 Oberflächenterm: $\sim R^2 \sim A^{2/3}$, Nukleonen an Oberfläche haben weniger Nachbarn \\
 Coulomb-Term: $E_{Coul} \sim \frac{Z^2}{R} \sim \frac{Z^2}{A^{1/3}}$ \\
 Asymmetrieterm: Bei kleinen Massenzahlen sind Kerne mit gleicher Neutronen- und Protonenzahl bevorzugt. Bei schweren Kernen mehr Neutronen wegen Coulomb \\
-Paarungsterm: Gerade Anzahl von Protonen und/oder Neutronen erhöht Stabilität des Kerns 
+Paarungsterm: Gerade Anzahl von Protonen und/oder Neutronen erhöht Stabilität des Kerns \\
+
+\textbf{Massenformel (Bethe-Weizsäcker):} 
+Alternative Schreibweise
+\begin{eqnarray*}
+M(A,Z) &=& \alpha\cdot A - \beta \cdot Z + \gamma \cdot Z^2+\frac{\delta}{A^{1/2}},\\
+ Z_0 &=& \beta/(2\gamma)\\
+\alpha &=& M_n - a_V + a_SA^{-1/3} + a_a/n\\
+\beta &=& a_a + (M_n - M_p + m_e)\\
+\gamma &=& a_a/A + a_C/A^{1/3}\\
+\delta &=& \begin{cases}
+\pm 11.2 MeV/c^2 (+ \text{Z und N gerade},\\
+ - \text{Z und N ungerade}\\
+0 \text{A ungerade}
+\end{cases}\\
+a_v &:& Volumenanteil\\
+a_C &:& Coulomb-Abstossung\\
+a_S &:&Oberfl.anteil\\
+a_a &:&Symmetrieanteil\\
+\delta &:&\text{Paarungsanteil (Kerne mit geraden p und }\\~&~&\text{n-Zahlen sind stabiler als ungerade Anteile}\\
+a_C &\sim& \alpha, a_c = \kappa \alpha 
+\end{eqnarray*}
+
 
 \textbf{Nuklide}: Isobare: gleiche Massenzahl $A$, Isotope: gleiches Element, gleiches $Z$, Isotone: gleiche Neutronenzahl $N$, Isomere: metastabile Zustände (Anregungen) mit gleichem $Z$ und $N$
 
 \ \\
 \textbf{Elastische Streuung Nukleon}: $Q^2 = -q^2$ \\
-$\left(\frac{d\sigma}{d\Omega}\right)_{\text{Punkt, Spin}} = \left(\frac{d\sigma}{d\Omega}\right)_{\text{Mott}} \left[ 1 + 2 \tau \tan^2 \frac{\vartheta}{2} \right]$ \\
-$\left(\frac{d\sigma}{d\Omega}\right) = \left(\frac{d\sigma}{d\Omega}\right)_{M} \left[ \frac{G^2_E(Q^2) + \tau G^2_M(Q^2)}{1 + \tau} + 2 \tau G^2_M(Q^2) \tan^2 \frac{\vartheta}{2} \right]$ \\
+$$\left(\frac{d\sigma}{d\Omega}\right)_{\text{Punkt, Spin}} = \left(\frac{d\sigma}{d\Omega}\right)_{\text{Mott}} \left[ 1 + 2 \tau \tan^2 \frac{\vartheta}{2} \right]$$ \\
+$$\scriptscriptstyle{\left(\frac{d\sigma}{d\Omega}\right) = \left(\frac{d\sigma}{d\Omega}\right)_{M} \left[ \frac{G^2_E(Q^2) + \tau G^2_M(Q^2)}{1 + \tau} + 2 \tau G^2_M(Q^2) \tan^2 \frac{\vartheta}{2} \right]}$$ \\
 Elektrischer Formfaktor: $G_E = F^2_1 - \frac{\kappa^2 Q^2}{4 M^2} F^2_2$ \\
 Magnetischer Formfaktor: $G_M = F_1 + \kappa F_2$ \\
 $\tau = \frac{Q^2}{4M^2 c^2}$, $F_{1,2}$ Dirac-Formfaktoren, $\kappa = \frac{g-2}{2}$ \\
@@ -228,7 +250,7 @@ Wirkungsquerschnitt: \\
 $\frac{d^2 \sigma}{d\Omega dE'} = \left( \frac{d\sigma}{d\Omega} \right)^*_{\text{Mott}} \left[ W_2(Q^2, \nu) + 2 W_1(Q^2, \nu) \tan^2 \frac{\vartheta}{2} \right]$ \\
 $F_1(x,Q^2) = M c^2 W_1(Q^2, \nu)$, $F_2(x,Q^2) = \nu W_2(Q^2, \nu)$ \\
 Callan-Gross Beziehung: $y = \frac{P q}{P p} = 1 - \frac{E'}{E}$ \\
-$\frac{d^2\sigma}{dQ^2 dx} = \frac{4 \pi \alpha^2 \hbar^2}{Q^4} \left[ \left( \frac{1-y}{x} - \frac{M y}{2 E} \right) F_2(x,Q^2) + y^2 F_1(x,Q^2) \right]$ \\
+$\scriptscriptstyle\frac{d^2\sigma}{dQ^2 dx} = \frac{4 \pi \alpha^2 \hbar^2}{Q^4} \left[ \left( \frac{1-y}{x} - \frac{M y}{2 E} \right) F_2(x,Q^2) + y^2 F_1(x,Q^2) \right]$ \\
 Messung ergibt $F_2(x,Q^2)$ unabh. von $Q \Rightarrow$ punktförmige Substruktur der Nukleonen \\
 Es gilt $2 x F_1(x) = F_2(x) \Rightarrow$ punktförmige Konstituenten haben Spin 1/2
 
@@ -291,5 +313,6 @@ z.B.: $S = \frac{3}{2} \Rightarrow \ket{\uparrow \uparrow \uparrow}$ und $L = 0 
 
 \textbf{Strangeness}: s-Quark hat Quantenzahl $S = -1$ \\
 $Y = B+S = \text{Baryonenzahl} + \text{Strangeness}$
+
 \end{multicols*}
 \end{document}
